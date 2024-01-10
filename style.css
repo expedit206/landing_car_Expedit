@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    color: #fff;
+}
+h3{
+    color: RGB(243, 117, 33);
+}
+body{
+    /* background-color: bla    ck; */
+}
+.logo img{
+    width: 6vw;
+    height: 6vh;
+}
+header{
+    position:static ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5vw;
+    transition: 0.2s ease;
+    
+}
+a:hover{
+    border-top: 2px RGB(243, 117, 33) solid;
+    border-bottom: 2px RGB(243, 117, 33) solid;
+    color: RGB(243, 117, 33);
+}
+.profil img{
+    width: 5vw;
+    height: 4vh;
+}
+h1{
+    color: rgb(243, 117, 33);
+    font-size: 5vw;
+    letter-spacing: 5px;
+}
+h2{
+    font-size: 2.7vw;
+    letter-spacing: 3px;
+    margin: 2vh;
+
+}
+.container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* width: 30vw; */
+    background-color: rgb(78, 179, 226);
+    height: 95vh;
+    padding-left: 10vw;
+    background: url('./img_car/bg-home.jpg');
+}
+.container .second{
+    width: 30vw;
+}
+.container .third{
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+}
+.container .third .img img{
+    width: 12vw;
+
+}
+.info{
+    border: 5px cyan solid;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    width: 85vw;
+    border-radius: 0.3vw;
+    height: 8vh;
+}
+.info button{
+    background-color: rgb(243, 117, 33);
+    padding: 1vh 1vh;   
+    border-radius: 0.5vw;
+    width: 10vw;
+    cursor: pointer;
+}
+input{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.555);
+    border-radius: 2px;
+    height: 3vh;
+}
+.container .second, 
+.container .third{
+    margin-top: -25vh;
+}
+img{
+    cursor: pointer;
+}
+.location{
+    display: grid;
+    grid-template-columns: repeat(3,25vw);
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.location .a{
+    height: 22vh;
+padding: 10px;
+border: 4px rgb(243, 117, 33) solid;    /* background-color: red ; */
+}
+.a img{
+    width: 8vw;
+    height: 5vh;
+}
+.location div p{
+    padding: 20px;
+    font-size: 1em;
+    /* overflow: scroll; */
+}
+.location div b{
+    padding: 20px;
+}
+.prestations{
+    display: grid;
+    grid-template-columns: repeat(3,25vw);
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.prest{
+    box-shadow: 2px 5px 10px black;
+    border-radius: 1vw;
+    padding: 0.3;
+    /* height: 10vh; */
+    /* margin-top: 10vh; */
+}
+.prest img{
+    width: 25vw;
+    height: 19vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.prest .prix  {
+    padding: 3vh 0px;
+}
+.prest .num{
+    margin-top: 1vh;
+}
+.prest button{
+    background-color: rgb(243, 117, 33);
+    border-radius: 5px;
+padding: 5px;
+margin-bottom: 1vh;
+font-size: 1.2vw;
+}
+.prest .marque{
+    background-color: rgb(243, 117, 33);
+    border-radius: 5px;
+padding: 5px;
+width: 4vw;
+}
+.marque,
+.num,
+.prix,
+button{
+    margin-left: 1vw;
+}
+h3{
+    margin: 3vh;
+}
+.propos{
+display: grid;
+grid-template-columns: 1fr 1fr;
+/* justify-content: space-between; */
+gap: 20px;
+
+}
+.propos img{
+width: 50vw;
+ height: 40vh;
+}
+.description{
+    width: 40vw;
+}
+.description p{
+    margin: 3vh 0;
+}
+.description button{
+    width: 100%;
+    height: 4vh;
+    background-color: RGB(243, 117, 33);
+    border-radius: 5px;
+    font-size: 1.5vw;
+}
+.description h3{
+    margin: 0;
+}
+.description button{
+    margin: 0;
+}
+.avis{
+    display: grid;
+    grid-template-columns: repeat(3,25vw);
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.avis .a{
+    width: 25vw;
+}
+.avis .nom{
+    font-weight: bold;
+    font-size: 2vw;
+}
+.avis p{
+    position: relative;
+    /* overflow: scroll; */
+}
+.a{
+    border-bottom: 4px RGB(243, 117, 33) solid;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+}
+.inscrire{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: 🇴🇲;
+    background-color: RGB(243, 117, 33);
+    margin-top: 3vh;
+}
+
+.inscrire button{
+    background-color: rgb(243, 117, 33);
+    padding: 0.5vh 1vw;
+    border-radius: 8px;
+}
+.inscrire h3, 
+button{
+color: white;
+font-size: 1.5vw;
+}
+.inscrire input{
+    background-color: white;
+    bottom: none;
+    padding: 0.5vh 1vw;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    margin-top: 2vh;
+}
+.fouth img{
+    width: 3vw;
+    height: 3vh;
+}
+.autres img{
+    width: 3vw;
+    height: 3vh;
+
+}
+footer p{
+    color:RGB(243, 117, 33) ;
+}
+footer .first{
+/* width: 30vw; */
+/* background-color: red; */
+}
+footer .first img{
+    margin-left: 20px;
+}
+footer .second{
+    text-align: center;
+}
+footer .second p,
+footer .third p{
+    font-size: 1.3vw;
+}
+footer .third{
+    text-align: center;
+}
+ footer .fouth{
+    text-align: center;
+}
+ footer .fouth img{
+    margin-left: 20px;
+ }
+footer h3{
+    margin: 1vh 0;
+    font-size: 1.5vw;
+    color: white;
+}
