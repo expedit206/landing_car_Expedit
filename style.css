@@ -121,14 +121,73 @@ img{
     justify-content: center;
     align-items: center;
     gap: 2vw;
+    position: relative;
 }
-.location .a{
+.o{
+    width: 10vw;
+    height: 15vh;
+    background-color:  red;
+    position: absolute;
+}
+.over1{
+    z-index: -1;
+    top: 0vh;
+border-top:  4px rgb(243, 117, 33) solid;
+border-left:  4px rgb(243, 117, 33) solid;
+    left: 10vw;
+    background-color: white;
+}
+.over2{
+    
+    z-index: -1;
+    top: 6vh;
+    border-bottom:  4px rgb(243, 117, 33) solid;
+    border-right:  4px rgb(243, 117, 33) solid;
+    left: 23vw;
+    background-color: white;
+}
+.over3{
+    
+    z-index: -1;
+    top: 6vh;
+    border-bottom:  4px rgb(243, 117, 33) solid;
+    border-right:  4px rgb(243, 117, 33) solid;
+    left: 50vw;
+    background-color: rgb(248, 247, 247);
+}
+.over4{
+    z-index: -1;
+    top: 0vh;
+    border-top:  4px rgb(243, 117, 33) solid;
+    border-left:  4px rgb(243, 117, 33) solid;
+    left: 38vw;
+    background-color: white;
+}
+.over5{
+    z-index: -1;
+    top: 0vh;
+    border-top:  4px rgb(243, 117, 33) solid;
+    border-left:  4px rgb(243, 117, 33) solid;
+    left: 65vw;
+    background-color: white;
+}
+.over6{
+    
+    z-index: -1;
+    top: 6vh;
+    border-bottom:  4px rgb(243, 117, 33) solid;
+    border-right:  4px rgb(243, 117, 33) solid;
+    left: 76vw;
+    background-color: rgb(255, 255, 255);
+    /* clip-path: (50%); */
+}
+.location .ab{
     height: 22vh;
-padding: 10px;
-border: 4px rgb(243, 117, 33) solid;    /* background-color: red ; */
+    padding: 10px;
+    /* border: 4px rgb(243, 117, 33) solid;    background-color: red ; */
 }
-.a img{
-    width: 8vw;
+.ab img{
+    width: 6vw;
     height: 5vh;
 }
 .location div p{
@@ -141,7 +200,7 @@ border: 4px rgb(243, 117, 33) solid;    /* background-color: red ; */
 }
 .prestations{
     display: grid;
-    grid-template-columns: repeat(3,25vw);
+    grid-template-columns: repeat(auto-fit, minmax(5vw, 23vw));
     justify-content: center;
     align-items: center;
     gap: 2vw;
@@ -154,7 +213,7 @@ border: 4px rgb(243, 117, 33) solid;    /* background-color: red ; */
     /* margin-top: 10vh; */
 }
 .prest img{
-    width: 25vw;
+    width: 23vw;
     height: 19vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -243,6 +302,15 @@ width: 50vw;
     align-items: center;
     justify-content: space-around;
     height: 30vh;
+}
+.a >img {
+    width: 5vw !important;
+    height: 6vh !important;
+}
+.a img{
+
+    height: 3vh;
+    width: 12vw;
 }
 .inscrire{
     width: 100%;
